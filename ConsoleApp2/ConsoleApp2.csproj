@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{C9A26611-83FF-4CE5-9F83-4E8C02DBD1E4}</ProjectGuid>
+    <ProjectGuid>{CA4EFD9A-4E88-4267-A9D2-AFD69A1B6293}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>MillionairesProblem</RootNamespace>
-    <AssemblyName>MillionairesProblem</AssemblyName>
+    <RootNamespace>ConsoleApp2</RootNamespace>
+    <AssemblyName>ConsoleApp2</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,8 +42,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Boat.cs" />
-    <Compile Include="Millionaire.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
