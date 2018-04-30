@@ -17,7 +17,7 @@ namespace Boat
 		private static string name;
 		private static byte[] buffer = new byte[1024];
 		private static object locky = new object();
-		static void Main(string[] args)
+/*		static void Main(string[] args)
 		{
 			name = "Wonderful exercise in networks  ";
 			Console.Title = name;
@@ -31,7 +31,7 @@ namespace Boat
 			}
 
 		}
-
+*/
 		private static void SetupServer()
 		{
 			serverSocket = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
